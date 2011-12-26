@@ -13,6 +13,7 @@ lsi:         false
 pygments:    false
 markdown:    maruku
 permalink:   date
+exclude:     ['vendor', '.bin', '.bundle']
 
 maruku:
   use_tex:    false

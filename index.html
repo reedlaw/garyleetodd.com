@@ -4,9 +4,9 @@ title: Gary Lee Todd
 ---
 <h1>Blog Posts</h1>
 <div id="home">
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a> ({{ post.content | number_of_words }} words)</li>
+    {% endfor %}
+  </ul>
 </div>

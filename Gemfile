@@ -1,8 +1,9 @@
 source 'http://rubygems.org'
 
-gem 'jekyll'
+gem 'grit'
 gem 'hpricot'
-gem "inflection"
+gem 'inflection'
+gem 'jekyll'
 gem 'nokogiri'
 gem 'open_gem'
 gem 'RedCloth'
